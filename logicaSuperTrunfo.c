@@ -6,38 +6,51 @@
 // Siga os comentários para implementar cada parte do desafio.
 
 int main() {
-    // Definição das variáveis para armazenar as propriedades das cidades
-    // Você pode utilizar o código do primeiro desafio
+    char   cidade1, cidade2, populacao, area, Pib, turisticos;
 
-    
-    // Cadastro das Cartas:
-    // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
-    // utilizando a função scanf para capturar as entradas.
-    // utilize o código do primeiro desafio
+    printf("cidade: \n");
+    scanf("%s", &cidade1);
+    printf("populacao: \n");
+    scanf("%s\n", &populacao);
+    printf("area: \n");
+    scanf("%s\n", &area);
+    printf("Pib: \n");
+    scanf("%s\n", &Pib);
+    printf("turisticos: \n");
+    scanf("%s\n", &turisticos);
 
-    // Exemplo:
-    // printf("Digite o código da cidade: ");
-    // scanf("%s", codigo);
-    // 
-    // (Repita para cada propriedade)
-
-    // Comparação de Cartas:
-    // Desenvolva a lógica de comparação entre duas cartas.
-    // Utilize estruturas de decisão como if, if-else para comparar atributos como população, área, PIB, etc.
-
-    // Exemplo:
-    // if (populacaoA > populacaoB) {
-    //     printf("Cidade 1 tem maior população.\n");
-    // } else {
-    //     printf("Cidade 2 tem maior população.\n");
-    // }
-
-    // Exibição dos Resultados:
-    // Após realizar as comparações, exiba os resultados para o usuário.
-    // Certifique-se de que o sistema mostre claramente qual carta venceu e com base em qual atributo.
-
-    // Exemplo:
-    // printf("A cidade vencedora é: %s\n", cidadeVencedora);
-
-    return 0;
+    if(cidade1 < cidade2) {
+    printf("cidade1  tem maior populacao. \n");
+} else {
+    printf("cidade2  tem maior populacao. \n");
 }
+
+if(populacao){
+    printf("populacao e maior. \n");
+} else {
+    printf("populacao e maior");
+}
+
+if (area ){
+    printf("area e superior! \n");
+} else {
+    printf("area e superior!");
+}
+if( Pib){
+    printf("Pib aumentou nos ultimos anos. \n");
+} else {
+    printf("Pib aumentou nos ultimos anos. \n");
+}
+
+if(turisticos){
+    printf("quantos pontos turisticos. \n");
+} else {
+    printf("quantos pontos turisticos");
+}
+
+
+
+}
+
+
+
